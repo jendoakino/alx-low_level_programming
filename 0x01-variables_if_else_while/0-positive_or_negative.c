@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - print if the number is positive,negative or 0
+ * main - print if the number is positive,negative or zero
  *
- * Return: Always 0
+ * Return: Always 0 (success)
  *
  */
 
@@ -29,5 +29,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 
-	return (o);
+	return (0);
 }
