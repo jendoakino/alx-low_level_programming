@@ -4,9 +4,11 @@
  * number -  helps find the square roots of natural square roots numbers
  * @n: natural number starting from 1
  * @root: square root number to be found
- * return:square root of answer
+ * return:square root of answer and nothing for number
+ *
  * if root is not natural square root returns -1
  * if root less than 0 return -1
+ *
  */
 int number(int n, int root)
 {
